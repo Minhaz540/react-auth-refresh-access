@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+    @apply border border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200;
+}
